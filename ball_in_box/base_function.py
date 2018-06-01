@@ -54,6 +54,7 @@ def find_proper_one_in_xyrobject_by_r(_judge,nodes):
     _judge 如果judges为真 则返回最大值 反之返回最小值
     nodes  需要处理的list,list里面存的是(x,y,r)这样的object
 
+	
     return 返回数字 即是第几个
     """
     
