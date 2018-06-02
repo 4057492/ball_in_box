@@ -18,6 +18,7 @@ def validate(circles, blockers):
            or not ypr <= yrange[1] and ypr >= yrange[0]:
             return False
 
+			
     # Is circle good for blockers?
     if blockers is not None and len(blockers) > 0:
         for circle in circles:
@@ -35,8 +36,8 @@ def validate(circles, blockers):
     for index1, value1 in enumerate(circles):
         for index2, value2 in enumerate(circles):
             if index1 != index2:
-                x1 = value1[0]
                 y1 = value1[1]
+                x1 = value1[0]
                 r1 = value1[2]
                 x2 = value2[0]
                 y2 = value2[1]
